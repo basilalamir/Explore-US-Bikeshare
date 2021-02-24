@@ -36,7 +36,7 @@ def get_filters():
         if month in ['january', 'february', 'march', 'april', 'may', 'june', 'all']:
             break
         else:
-            print("Sorry, I didn't catch that. Try again.")
+            print("Sorry, I didn't catch that. Try again. Hint: Don't use months abbreviation")
 
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
 
