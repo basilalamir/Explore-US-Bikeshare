@@ -46,7 +46,7 @@ def get_filters():
         if day in ['sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'all']:
             break
         else:
-            print("Sorry, I didn't catch that. Try again.")
+            print("Sorry, I didn't catch that. Try again. Hint: Don't use weeks acronyms")
     print('-'*40)
     return city, month, day
 
